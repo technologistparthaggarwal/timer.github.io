@@ -1,0 +1,81 @@
+#container
+{
+    height: 39vh;
+    width: 100%;
+    border: 2px solid black;
+    background-image: linear-gradient(-169deg,rgb(225,169,214),rgb(196,197,225),rgb(165,229,238));
+    margin:0px;
+}
+.heading{
+    font-size: 5rem;
+    color: white;
+    margin: 3rem 0 0 21rem;
+}
+.input{
+   margin:0 0 0 30rem ;
+}
+input[type="number"]{
+   height: 3rem;
+   width: 21rem;
+   /* border-radius: 21px; */
+   margin-left: 12rem;
+   margin-top: 3rem;
+   font-size: 2rem;
+}  
+button{
+    background-color: white;
+    height: 66px;
+    border-radius: 21px;
+    width: 12rem;
+    font-size: 1.5rem;
+    border: none;
+}
+button:hover{
+    box-shadow: 3px 3px 0 0px black;
+}
+.button{
+    margin: -4rem 0 0 48rem;
+    height: 66px;
+    width: 12rem;
+}
+#c2{
+    width: 75rem;
+    height: 12rem;
+    border: 2px solid black;
+    background-color: black;
+    margin-left: 111px;
+
+}
+
+.counter-1{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 21px;
+    position: relative;
+    margin:2rem 0 0rem 30rem;
+    overflow: hidden;
+}
+p{
+    text-align: center;
+    font-size: 2.1rem;
+    margin:0;
+    width: 100%;
+    height: 100%;
+    line-height: 80px;
+    position: relative;
+}  
+p.next{
+    position:absolute;
+    top:100px;
+}
+p.animate{
+      transition: all 0.5s;
+      top: 0px;  
+}
+p.current{
+    top: 0px;
+}
+p.n1{
+    top: -100px;
+}
